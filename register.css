@@ -1,0 +1,70 @@
+body{
+  padding: 0px;
+  margin: 0px;
+  background-image:radial-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) ,url('vhg2.jpg');
+   background-color: #cccccc;
+  background-size: 1920px 1080px;
+
+
+}
+i{
+  color: red;
+
+}
+.a1{
+  width: 300px;
+   padding: 40px;
+   position: absolute;
+   top:50%;
+   border-radius: 30px;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   background: #191919;
+   text-align: center;
+}
+h1{
+
+  
+  color: red;
+  font-weight:500;
+}
+.a1 input[type='text'],.a1 input[type='password']{
+  background: none;
+    margin: auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+}
+.a1 input[type='text']:focus,.a1 input[type='password']:focus{
+  width: 200px;
+  border-color: red;
+}
+
+.a1 input[type='submit']{
+  position:static;
+  width: 210px;
+  background: none;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px;
+    padding-left: 30px;
+    outline: none;
+    color: white ;
+    border-radius: 24px;
+}
+.a1 input[type='submit']:hover{
+  background: lightblue;
+}
+
+.a2{
+  background-color: #343a40;
+  text-align: center;
+  color: #686868;
+  height: 3%;
+  width: 100%;
+  margin-top: 735px;
+}
